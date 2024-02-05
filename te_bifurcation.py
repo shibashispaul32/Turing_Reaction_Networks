@@ -5,7 +5,6 @@ import os
 import sympy
 import numpy as np
 import pandas as pd
-from PyDSTool import *
 import matplotlib.patches as patches
 from scipy.signal import argrelextrema
 
