@@ -5,6 +5,8 @@ Shibashis Paul and Tian Hong (under review)
 
 Dependencies (tested with):<br>
 Tellurium 2.1.5 - 2.2.4<br>
+sobol-seq 0.2.0<br>
+NetworkX 2.4<br>
 
 <br><br><br>
 <img src='https://github.com/shibashispaul32/Turing_Reaction_Networks/blob/main/comp_details(README).png' width='600'>
