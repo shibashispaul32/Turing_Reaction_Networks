@@ -7,4 +7,4 @@ Dependencies (tested with):<br>
 Tellurium 2.1.5 - 2.2.4<br>
 
 <br><br><br>
-![alt text](https://github.com/shibashispaul32/Turing_Reaction_Networks/blob/main/comp_details(README).png?raw=true)
+<img src='https://github.com/shibashispaul32/Turing_Reaction_Networks/blob/main/comp_details(README).png' width='600'>
