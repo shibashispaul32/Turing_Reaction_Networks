@@ -2,7 +2,7 @@ Computational pipepline for manuscript **Widespread biochemical reaction network
 Shibashis Paul and Tian Hong (under review)
 
 <br><br><br>
-Install conda and run the following code in terminal to create the necessary conda environment named turing_network: <br>
+Install Anaconda or Miniconda and run the following code in terminal to create the necessary conda environment named 'turing_network': <br>
 conda env create -f environment.yml
 
 <br><br><br>
