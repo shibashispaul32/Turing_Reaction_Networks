@@ -1,5 +1,5 @@
 Computational pipepline for manuscript **Widespread biochemical reaction networks enable Turing patterns without imposed feedback** 
-Shibashis Paul and Tian Hong (under review)
+Shibashis Paul, Joy Adetunji and Tian Hong (under review)
 
 <br><br><br>
 Install Anaconda or Miniconda and run the following code in terminal to create the necessary conda environment named 'turing_network': <br>
