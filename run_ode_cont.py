@@ -153,7 +153,7 @@ perturbs = {0:'Basal range',
 if __name__ == '__main__':
     nodes = reaction_nets.make_nodes()
     #for pert_id in range(len(perturbs)):   # For testing perturbed ranges
-    for per_id in [0]: # For basal range of parameters only
+    for pert_id in [0]: # For basal range of parameters only
         print(pert_id, perturbs[pert_id])
         run_cont(nodes, nreps=100, if_only_seeds=True, pert_id=pert_id) # A quick test run
         #run_cont(nodes, nreps=10000, if_only_seeds=False, pert_id=pert_id) # The paper's full setup
