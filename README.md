@@ -20,4 +20,4 @@ Estimated time to run numerical continuations for a large randomized parameter s
 References to key parameter settings for models and algorithms<br>
 | Parameters | Referenced text with rationale | Location in code |
 | :---:   | :---: | :---: |
-| Seconds | 301   | 283   |
+| Most ODE parameters | Supplementary text B.1.1. Table S1   | run_ode_cont.py |
