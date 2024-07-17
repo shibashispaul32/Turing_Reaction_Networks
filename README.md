@@ -21,5 +21,6 @@ References to key parameter settings for models and algorithms<br>
 | Parameters | Referencing text with rationale | Referencing code |
 | :---:   | :---: | :---: |
 | ODE parameters | Supplementary text B.1.1 and Table S1   | run_ode_cont.py |
+| Control parameter for continuation &sigma;| Main text Methods   | run_ode_cont.py |
 | Diffusion coefficients| Supplementary text B.1.2 and B.2.2   | ????? |
-| Stepsize for dispersion | Supplementary text B.3 | script_scan_disp_all.py|
+| Stepsize for dispersion &Delta;p| Supplementary text B.3 | script_scan_disp_all.py|
