@@ -18,9 +18,10 @@ Estimated time to run numerical continuations for a large randomized parameter s
 
 <br><br>
 References to key parameter settings for models and algorithms<br>
-| Parameters | Referencing text with rationale | Referencing code |
-| :---:   | :---: | :---: |
-| ODE parameters (rate constants except &sigma;) | Supplementary text B.1.1 and Table S1   | run_ode_cont.py |
-| Control parameter for continuation &sigma;| Main text Methods   | run_ode_cont.py |
-| Diffusion coefficients| Supplementary text B.1.2 and B.2.2   | ????? |
-| Stepsize for dispersion &Delta;p| Supplementary text B.3 | script_scan_disp_all.py|
+| Parameters | Referencing text with rationale | Referencing code | Values/Ranges |
+| :---:   | :---: | :---: | :---: |
+| Distributions of ODE parameters (rate constants except &sigma;) | Supplementary text B.1.1 and Table S1   | run_ode_cont.py | Log-uniform with ranges listed in Table S1 |
+| Control parameter for continuation &sigma;| Main text Methods   | run_ode_cont.py | 0-120 |
+| Number of sampled parameter sets for ODE models| Main text Methods   | run_ode_cont.py |
+| Diffusion coefficients| Supplementary text B.1.2 and B.2.2   | ????? | Uniform 1-20 |
+| Stepsize for dispersion &Delta;p| Supplementary text B.3 | script_scan_disp_all.py| 0.05 |
