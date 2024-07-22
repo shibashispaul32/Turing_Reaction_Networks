@@ -23,5 +23,9 @@ References to key parameter settings for models and algorithms<br>
 | Distributions of ODE parameters (rate constants except &sigma;) | Supplementary text B.1.1 and Table S1   | run_ode_cont.py | Log-uniform with ranges listed in Table S1 |
 | Control parameter for continuation &sigma;| Main text Methods   | run_ode_cont.py | 0-120 (adaptively scanned) |
 | Number of sampled parameter sets for ODE models| Main text Methods   | run_ode_cont.py | 10,000 (100 for testing) |
-| Diffusion coefficients| Supplementary text B.1.2 and B.2.2   | ????? | Uniform 1-20 |
-| Stepsize for dispersion &Delta;p| Supplementary text B.3 | script_scan_disp_all.py| 0.05 |
+| Diffusion coefficients| Supplementary text B.1.2 and B.2.2   | script_scan_disp_all.py | Uniform 1-20 |
+| Stepsize for dispersion &Delta;q| Supplementary text B.3 | script_scan_disp_all.py| 0.05 |
+| Stepsize for time &Delta;t| Supplementary text Table S2 (Caption) | Analysis-Simulation.ipynb | 0.0001 |
+| Stepsize for time &Delta;x (High Resolution)| Supplementary text Table S2 (Caption) | Analysis-Simulation.ipynb | 1.0 |
+| Stepsize for time &Delta;x (Low Resolution)| Supplementary text Table S2 (Caption) | Analysis-Simulation.ipynb | 5.0 |
+
